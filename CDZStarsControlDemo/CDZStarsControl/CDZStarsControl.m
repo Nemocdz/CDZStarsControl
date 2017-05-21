@@ -177,7 +177,6 @@
     if ([self.delegate respondsToSelector:@selector(starsControl:didChangeScore:)]) {
         [self.delegate starsControl:self didChangeScore:self.score];
     }
-    
 }
 
 #pragma mark - getter&setter
@@ -187,7 +186,7 @@
         return;
     }
     _score = score;
-    NSInteger index =  floor(score);
+    NSInteger index = floor(score);
     CGFloat fractionPart = score - index;;
     if (!self.isAllowFraction || fractionPart == 0) {
         index -= 1;
