@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CDZStarsControl"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "A star control"
   s.homepage     = "https://github.com/Nemocdz/CDZStarsControl"
   s.license      = "MIT"
