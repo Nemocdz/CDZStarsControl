@@ -24,10 +24,6 @@
 }
 
 
-- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
-    return self.superview;
-}
-
 #pragma mark - helper
 
 + (UIImage *)reSizeImage:(UIImage *)image toSize:(CGSize)reSize{

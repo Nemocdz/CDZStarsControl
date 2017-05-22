@@ -61,6 +61,7 @@
         starButton.tag = index;
         starButton.normalImage = self.normalStarImage;
         starButton.highlightedImage = self.highlightedStarImage;
+        starButton.userInteractionEnabled = NO;
         [self addSubview:starButton];
     }
 }
