@@ -7,7 +7,9 @@ This is a small and configurable stars control with Animation.
 
 ## Changelog
 
-- nothing
+##### 1.0.4
+
+- Fix 0 star can't show bug
 
 ## Installation
 

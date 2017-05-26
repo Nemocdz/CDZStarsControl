@@ -29,7 +29,7 @@
 
 - (CDZStarsControl *)starsControl{
     if (!_starsControl) {
-        _starsControl = [CDZStarsControl.alloc initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 50) stars:5 starSize:CGSizeMake(50, 50) noramlStarImage:[UIImage imageNamed:@"star_normal"] highlightedStarImage:[UIImage imageNamed:@"star_highlighted"]];
+        _starsControl = [CDZStarsControl.alloc initWithFrame:CGRectMake(10, 100, self.view.frame.size.width - 20 , 50) stars:5 starSize:CGSizeMake(50, 50) noramlStarImage:[UIImage imageNamed:@"star_normal"] highlightedStarImage:[UIImage imageNamed:@"star_highlighted"]];
         _starsControl.delegate = self;
         _starsControl.allowFraction = YES;
         _starsControl.score = 2.6f;

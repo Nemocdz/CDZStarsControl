@@ -193,7 +193,7 @@
         index -= 1;
     }
     CDZStarButton *starButton = [self starForTag:index];
-    if (starButton.selected) {
+    if (starButton.selected || score == 0) {
         [self starsDownToIndex:index];
     }
     else{
